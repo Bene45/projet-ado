@@ -1,0 +1,62 @@
+h1
+{
+	font-family: 'Muli', sans-serif;
+	color:black;
+	text-align : center;
+	padding-top: 7%;
+}
+h2{
+	font-family: 'Muli', sans-serif;
+	color:black;
+	text-align : center;
+}
+
+header{
+/*	width: 500px;*/
+	height:300px;
+	background-image: url("imagesados/beach-dune-field-1710.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin: auto;
+	background-size: cover;
+}
+.imagetitre{
+	width: 500px;
+	height:300px;
+	border-radius:200p;
+	display : block;
+	margin:auto;
+}
+
+
+
+
+section{
+	float: left;
+	width: 70%;
+}
+article{
+	width: 40%;
+}
+	.left{
+	float: left;
+}
+	.right{
+	float: right;
+}
+
+
+
+aside{
+	float:right;
+	width:20%;
+}
+footer{
+	clear: both;
+}
+
+li{
+	display:inline;
+	margin: 100px 100px;
+}
