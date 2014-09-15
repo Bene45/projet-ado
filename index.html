@@ -2,6 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- Leave those next 4 lines if you care about users using IE8 -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
         <link rel="stylesheet" href="style.css" />
         <link href='http://fonts.googleapis.com/css?family=Muli:300italic' rel='stylesheet' type='text/css'>
         <title>Ados</title>
@@ -9,50 +20,124 @@
  
     <body>
         <header>
+        <div class="titles">
          <h1>Les ados sont sympas</h1>
         <h2>Le blog des parents d'ados sympas</h2> 
-        </header>
-         
-        <nav>
-            <ul>
-                <li><a href="#">Le coin du psy</a></li>
-                <li><a href="#">Pédagogie</a></li>
-                <li><a href="#">Style</a></li>
-            </ul>
-        </nav>
-         
-        <section>
             
-            <article class="left">               
+            
+        </div>
+        </header>
+
+        <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><button type="button" class="btn btn-primary">Le coin du psy</button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-primary">Pédagogie</button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-primary">Style</button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-primary">Paroles d'ados</button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-primary">Boutique</button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-primary">Contact</button></a></li>
+</ul>
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+         
+
+         
+    <div class="container">
+        <section id="articles">
+        <div class="row">
+        <div class="col-md-12">
+        <div class="row">
+        <div class="col-md-5">
+        
+            <article>              
                 <h3>Article 1</h3>
-                <img class="imagearticle1" src="imagesados/imagearticle1.jpg" alt="image">
-                <p>Blablabala</p>
+                <img src="imagesados/imagearticle1.jpg" alt="image" class="img-thumbnail basket">
+                <div class="texte text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                </div>
             </article>
-            <article class="right">               
+           
+        </div>
+        
+        <div class="col-md-5">
+            <article>               
                 <h3>Article 2</h3>
-                <img class="imagearticle2" src="imagesados/imagearticle2.jpg" alt="image">
-                <p>Blablabala</p>
+                <img src="imagesados/imagearticle2.jpg" alt="image" class="img-thumbnail crayon">
+                <div class="texte text-justify">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                </div>
             </article>
-            <article class="left">              
+        </div>
+
+        <div class="col-md-2">
+        <aside>
+        <h4>Qui suis je</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                </p>
+            </aside>
+            </div>
+            </div>
+
+            <div class="col-md-5">
+            <article>            
                 <h3>Article 3</h3>
-                <img class="imagearticle3" src="imagesados/imagearticle3.jpg" alt="image de bureau">
-                <p>Blablabala</p>
+                <img src="imagesados/imagearticle3.jpg" alt="image" class="img-thumbnail poteau">
+                <div class="texte text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                </div>
             </article>
-            <article class="right">               
+            </div>
+
+
+            <div class="col-md-5">
+
+            <article>               
                 <h3>Article 4</h3>
-                <img class="imagearticle4" src="imagesados/imagearticle4.jpg" alt="image de bureau">
-                <p>Blablabala</p>
-            </article>
+                <img src="imagesados/imagearticle4.jpg" alt="image" class="img-thumbnail escargot">
+                <div class="texte text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                </div>
+             </article>
+            </div>
+
+        </div>
         </section>
 
-        <aside>
-                <h4>Qui-suis-je ?</h4>
-                <p>Blablabala.</p>
-            </aside>
-         
         <footer>
             <p>Copyright Bene - Tous droits réservés</p>
         </footer>
-         
+    </div>    
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>    
     </body>
 </html>

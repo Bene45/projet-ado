@@ -1,15 +1,33 @@
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
 h1
 {
 	font-family: 'Muli', sans-serif;
 	color:black;
 	text-align : center;
 	padding-top: 7%;
+	padding-bottom: 2%;
 }
-h2{
+h2
+{
 	font-family: 'Muli', sans-serif;
 	color:black;
 	text-align : center;
 }
+
+article
+
+{
+
+text-align: center;
+}
+
+
+
 
 header{
 /*	width: 500px;*/
@@ -24,39 +42,80 @@ header{
 .imagetitre{
 	width: 500px;
 	height:300px;
-	border-radius:200p;
-	display : block;
+	border-radius:200px;
+	/*display : block;*/
 	margin:auto;
 }
 
-
-
-
-section{
-	float: left;
-	width: 70%;
-}
-article{
-	width: 40%;
-}
-	.left{
-	float: left;
-}
-	.right{
-	float: right;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
-
-
-aside{
-	float:right;
-	width:20%;
+.navbar .navbar-collapse 
+{
+  text-align: justify;
+  background: #DEDCB6;
 }
+
+.btn {
+	margin-right: 40%;
+}
+
+h3
+{color:#5B6A7F;
+}
+
+.texte {
+	max-width: 60%;
+	margin: auto;
+}
+.basket
+{
+	max-width: 60%;
+}
+
+.crayon{
+	max-width: 60%;
+}
+.poteau{
+	max-width: 60%;
+}
+.escargot{
+	max-width: 60%;
+}
+
+aside
+{background: #DEDCB6;
+
+}
+body
+
+
+{
+	background: #D1C2AB;
+}
+
+.navbar-header
+{
+background: #954465;
+}
+
+p
+{color: #5B6A7F
+}
+
 footer{
 	clear: both;
 }
 
-li{
+/*li{
 	display:inline;
-	margin: 100px 100px;
+	margin: 50px 50px;
+}*/
+
+.titles {
+	margin: 0;
+	padding: 0;
 }
